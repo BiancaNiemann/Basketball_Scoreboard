@@ -1,0 +1,66 @@
+body {
+    background-image: url('backboard.jpg');
+    background-size: 750px 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gameboard{
+    background-color: white;
+    max-width: 300px;
+    margin-top: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid blue;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+#home-score, #guest-score {
+    text-align: center;
+    width: 100px;
+    padding-top: 10px;
+    font-size: 4rem;
+    margin: 0px auto 10px auto;
+    border-radius: 10px;
+    font-family: Cursed Timer ULiL
+}
+
+.add-button {
+    font-family: Cursed Timer ULiL;
+    font-size: 1.25rem;
+    background-color: transparent;
+    border: 2px solid darkgray;
+    border-radius: 7px;
+    background-color: orangered
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+#leader{
+    font-weight: 600
+}
+
+.clear{
+    background-color: lightgrey;
+    border: 2px solid orangered;
+    border-radius: 7px;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+
+
